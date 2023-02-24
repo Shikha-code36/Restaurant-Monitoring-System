@@ -69,9 +69,9 @@ To start the server, run the following command in the project directory:
 
 ```
 
-The server will start running on [http://localhost:5000]http://localhost:5000
+The server will start running on http://localhost:5000
 
-Note: Remember to add url prefix in the api like [http://localhost:5000/api]http://localhost:5000/api
+Note: Remember to add url prefix in the api like http://localhost:5000/api
 
 ## API Documentation
 
@@ -125,11 +125,11 @@ Used advance python features like -
 
 
 
-[Note] Data files cannot be pushed due to lfs issue 
- #### Files structure 
- ```
-    data/
-      ├── business_hours.csv
-      ├── stores.csv
-      └── timezones.csv
-    ```
+     **_NOTE:_**  Data files cannot be pushed due to lfs issue 
+         #### Files structure 
+         ```
+            data/
+              ├── business_hours.csv
+              ├── stores.csv
+              └── timezones.csv
+            ```
