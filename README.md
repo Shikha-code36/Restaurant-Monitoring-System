@@ -126,10 +126,15 @@ Used advance python features like -
 
 
      **_NOTE:_**  Data files cannot be pushed due to lfs issue 
+     
          #### Files structure 
+         
          ```
             data/
+            
               ├── business_hours.csv
+              
               ├── stores.csv
+              
               └── timezones.csv
             ```
