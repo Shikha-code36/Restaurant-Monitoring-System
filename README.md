@@ -103,7 +103,7 @@ Note: Remember to add url prefix in the api like http://localhost:5000/api
     
     * Request
     ```
-    GET /get_report?report_id=random_string HTTP/1.1
+    GET /api/get_report?report_id=random_string HTTP/1.1
 
     ```
     * Response
