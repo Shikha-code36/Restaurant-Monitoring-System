@@ -45,6 +45,20 @@ The system has the following three sources of data:
     store_id, timezone_str. If data is missing for a store, assume it is
     America/Chicago. This is used so that data sources 1 and 2 can be
     compared against each other.
+    
+**_NOTE:_**  Data files cannot be pushed due to lfs issue 
+     
+         #### Files structure 
+         
+         ```
+            data/
+            
+              ├── business_hours.csv
+              
+              ├── stores.csv
+              
+              └── timezones.csv
+            ```
 
 ## System Requirements 
 
@@ -123,18 +137,3 @@ Used advance python features like -
  - Multithreading
  - Caching
 
-
-
-     **_NOTE:_**  Data files cannot be pushed due to lfs issue 
-     
-         #### Files structure 
-         
-         ```
-            data/
-            
-              ├── business_hours.csv
-              
-              ├── stores.csv
-              
-              └── timezones.csv
-            ```
