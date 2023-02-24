@@ -122,3 +122,14 @@ Note: Remember to add url prefix in the api like [http://localhost:5000/api]http
 Used advance python features like -
  - Multithreading
  - Caching
+
+
+
+[Note] Data files cannot be pushed due to lfs issue 
+ #### Files structure 
+ ```
+    data/
+      ├── business_hours.csv
+      ├── stores.csv
+      └── timezones.csv
+    ```
